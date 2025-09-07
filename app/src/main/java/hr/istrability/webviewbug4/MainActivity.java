@@ -7,6 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         System.out.println("onCreate rafa");
-        // WindowCompat.setDecorFitsSystemWindows(getWindow(), false); // false for edge-to-edge
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), true); // false for edge-to-edge
 
         setContentView(R.layout.activity_main);
 

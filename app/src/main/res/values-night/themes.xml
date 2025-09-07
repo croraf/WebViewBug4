@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.WebViewBug" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowTranslucentStatus">false</item>
-        <item name="android:statusBarColor">#FF00FF00</item>
-        <item name="android:navigationBarColor">#FF0000FF</item>
+        <!--<item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">#FF00FF00</item>-->
+        <item name="android:navigationBarColor">#FF000000</item>
         <item name="android:windowTranslucentNavigation">false</item>
 
-        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:fitsSystemWindows">true</item>
     </style>
 </resources>
