@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         myWebView.setWebViewClient(new WebViewClient());
 
         myWebView.loadData(
-            "<html style=\"background: yellow; position: fixed; max-height: 200px;\">" +
+            "<html style=\"background: yellow;\">" +
                 "<body style=\"margin: 0; position: absolute; background: red; top: env(safe-area-inset-top); bottom: env(safe-area-inset-bottom);\">" +
-                "Hello" +
+                "<div>Hello</div>" +
                 "<input type=\"text\" />" +
                 "</body></html>",
             "text/html",
