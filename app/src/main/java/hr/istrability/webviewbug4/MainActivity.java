@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        myWebView = findViewById(R.id.webView);
+        /*myWebView = findViewById(R.id.webView);
 
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 "</body></html>",
             "text/html",
             "UTF-8"
-        );
+        );*/
 
 
     /*ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
